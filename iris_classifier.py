@@ -35,3 +35,6 @@ class IrisPredict(Resource):
 
 
 api.add_resource(IrisPredict, '/classify/')
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
